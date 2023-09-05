@@ -39,10 +39,10 @@ class EmployeeDatabase:
 
 def main():
     database = EmployeeDatabase()
-    database.add_employee(Employee("161E90", "Raman", 41, 56000))
+    database.add_employee(Employee("161E90", "Raman", 41, 56600))
     database.add_employee(Employee("161F91", "Himadri", 38, 67500))
     database.add_employee(Employee("161F99", "Jaya", 51, 82100))
-    database.add_employee(Employee("171E20", "Tejas", 30, 55000))
+    database.add_employee(Employee("171E20", "Tejas", 30, 55500))
     database.add_employee(Employee("171G30", "Ajay", 45, 44000))
 
     print("Search Options:")
